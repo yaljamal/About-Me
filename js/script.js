@@ -4,7 +4,7 @@
 // var car = confirm("the mosting is the favarit car ?");
 // var phone = confirm("Is my phone samsong ?");
 // var drink = confirm("I love the coffe ?");
-var urname= prompt("What is Your name ?");
+var urname = prompt("What is Your name ?");
 alert("Wlecom My freind " + urname);
 var name = prompt("is my nicname is nana ? yes /no OR y/n ").toLowerCase();
 var food = prompt(" I love the bamia ? yes /no OR y/n  ").toLowerCase();
@@ -12,54 +12,39 @@ var car = prompt("the mosting is the favarit car ? yes /no OR y/n  ").toLowerCas
 var phone = prompt("Is my phone samsong ? yes /no OR y/n  ").toLowerCase();
 var drink = prompt("I love the coffe ? yes /no OR y/n ").toLowerCase();
 
-if(name === "yes" || name === "y")
-{
+if (name === "yes" || name === "y") {
     alert(" Yes My nicename is NANA :)");
-}else if(name === "no" || name === "n")
-{
+} else if (name === "no" || name === "n") {
     alert(" No My nicename is NANA :)");
-}else
-{
+} else {
     alert("your answer is wrong");
 }
-if(food === "yes" || food === "y")
-{
+if (food === "yes" || food === "y") {
     alert(" No i hate the bamia");
-}else if(food === "no" || food === "n")
-{
+} else if (food === "no" || food === "n") {
     alert(" Yes i hate the bamia");
-}else
-{
+} else {
     alert("your answer is wrong");
 }
-if(car === "yes" || car === "y")
-{
+if (car === "yes" || car === "y") {
     alert(" yes this my favarate car ");
-}else if(car === "no" || car === "n")
-{
+} else if (car === "no" || car === "n") {
     alert(" No this my favarate car ");
-}else
-{
+} else {
     alert("your answer is wrong");
 }
-if(phone === "yes" || phone === "y")
-{
+if (phone === "yes" || phone === "y") {
     alert("No My phone is Iphone :) ");
-}else if(phone === "no" || phone === "n")
-{
+} else if (phone === "no" || phone === "n") {
     alert(" Yes My phone is Iphone :) ");
-}else
-{
+} else {
     alert("your answer is wrong");
 }
-if(drink === "yes" || drink === "y")
-{
+if (drink === "yes" || drink === "y") {
     alert("Yesssssss I love the coffe  :) ");
-}else if(drink === "no" || drink === "n")
-{
+} else if (drink === "no" || drink === "n") {
     alert(" Nooooooo I love the coffe  :) ");
-}else
-{
+} else {
     alert("your answer is wrong");
 }
 alert(" Thank You " + urname);
