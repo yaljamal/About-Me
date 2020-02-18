@@ -90,7 +90,7 @@ for (var int = 0; int < 6; int++) {
         if (place[j] === guess) {
             j = 10;
             int= 10;
-            alert(guess + ' it is in my faverate place ');
+            alert( guess + ' it is in my faverate place ');
             currect++;
 
         }
