@@ -10,12 +10,9 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color:#ffcc00;
-    
-
 }
 #header-nav{
     margin-top: -53px;
-
 }
 #header-nav ul li {
     float: right;
@@ -25,9 +22,7 @@ header h1{
     text-decoration: none;
     padding: 10px;
     padding-right: 23px;
-
     color: white;
-
 }
 #img-main{
     margin: 79px;
@@ -36,7 +31,6 @@ header h1{
 #par-main{
     float: right;
     margin: 50px;
-    
 }
 main{
     display: inline-block;
@@ -47,13 +41,11 @@ main{
     padding: 10px;
     border-radius: 20px;
     text-align: center;
-
 }
 #info{
     margin: 50px;
 }
 h2 {
-    
     font-weight: bold;
     text-decoration: black;
 }
@@ -69,6 +61,10 @@ h2 {
     border: 1px;
     padding: 20px;
     text-align: center;
+    }
+li {
+        padding: 4px;
+        margin: 4px;
     }
 
 footer{
