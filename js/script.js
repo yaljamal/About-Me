@@ -7,11 +7,6 @@
 var urname = prompt("What is Your name ?");
 alert("Wlecom My freind " + urname);
 var name = prompt("is my nicname is nana ? yes /no OR y/n ").toLowerCase();
-var food = prompt(" I love the bamia ? yes /no OR y/n  ").toLowerCase();
-var car = prompt("the mosting is the favarit car ? yes /no OR y/n  ").toLowerCase();
-var phone = prompt("Is my phone samsong ? yes /no OR y/n  ").toLowerCase();
-var drink = prompt("I love the coffe ? yes /no OR y/n ").toLowerCase();
-
 if (name === "yes" || name === "y") {
     alert(" Yes My nicename is NANA :)");
 } else if (name === "no" || name === "n") {
@@ -19,6 +14,7 @@ if (name === "yes" || name === "y") {
 } else {
     alert("your answer is wrong");
 }
+var food = prompt(" I love the bamia ? yes /no OR y/n  ").toLowerCase();
 if (food === "yes" || food === "y") {
     alert(" No i hate the bamia");
 } else if (food === "no" || food === "n") {
@@ -26,6 +22,7 @@ if (food === "yes" || food === "y") {
 } else {
     alert("your answer is wrong");
 }
+var car = prompt("the mosting is the favarit car ? yes /no OR y/n  ").toLowerCase();
 if (car === "yes" || car === "y") {
     alert(" yes this my favarate car ");
 } else if (car === "no" || car === "n") {
@@ -33,6 +30,7 @@ if (car === "yes" || car === "y") {
 } else {
     alert("your answer is wrong");
 }
+var phone = prompt("Is my phone samsong ? yes /no OR y/n  ").toLowerCase();
 if (phone === "yes" || phone === "y") {
     alert("No My phone is Iphone :) ");
 } else if (phone === "no" || phone === "n") {
@@ -40,6 +38,7 @@ if (phone === "yes" || phone === "y") {
 } else {
     alert("your answer is wrong");
 }
+var drink = prompt("I love the coffe ? yes /no OR y/n ").toLowerCase();
 if (drink === "yes" || drink === "y") {
     alert("Yesssssss I love the coffe  :) ");
 } else if (drink === "no" || drink === "n") {
@@ -48,11 +47,10 @@ if (drink === "yes" || drink === "y") {
     alert("your answer is wrong");
 }
 alert(" Thank You " + urname);
-
-console.log(name);
-console.log(food);
-console.log(car);
-console.log(phone);
-console.log(drink);
+console.log(" Your Name Is : "  + name);
+console.log(" your answer is : "+ food);
+console.log(" your answer is : "+car);
+console.log(" your answer is : "+phone);
+console.log(" your answer is : "+drink);
 
 
