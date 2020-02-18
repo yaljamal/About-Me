@@ -85,18 +85,24 @@ if (guessNumber !== 7) {
 }
 var place = ['palestine', 'turkey', 'germany', 'paris', 'rome', 'egypt'];
 var guess = prompt('guess what is the favarte place in form : ').toLowerCase();
-    for (var j = 0; j < place-1 ; j++) {
-        if (guess !== place[j]) {
-            guess = prompt('guess what is the favarte place in form : ').toLowerCase();
-            j++;
-        }
-        else {
-            alert('the place in my faverate place');
-            j = 10;
-            console.log(j);
+function serch(place, guess) {
+    for (var j = 0; j < place.length - 1; j++) {
+        if (guess === place[j]) {
+            return true;
+        } else {
+            return false;
+
         }
     }
+}
+var incloud = serch(place, guess);
+if (incloud === true) {
+    alert(guess + ' this is in my faverate place  ');
+}
+else {
+    alert(guess + ' this is not in my faverate place  ');
 
+}
 
 
  alert(" Thank You " + urname);
