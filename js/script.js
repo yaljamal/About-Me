@@ -101,7 +101,7 @@ for (var int = 0; int < 6; int++) {
 
 alert(" Thank You " + urname);
 alert('ur currect answer is  ' + currect);
-
+// console.log(currect);
 // console.log(" Your Name Is : "  + name);
 // console.log(" your answer is : "+ food);
 // console.log(" your answer is : "+car);
