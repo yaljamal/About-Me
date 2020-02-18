@@ -81,32 +81,26 @@ if (guessNumber !== 7) {
     alert('this is my faverate number :)');
     currect++;
     // console.log(currect);
-
 }
 var place = ['palestine', 'turkey', 'germany', 'paris', 'rome', 'egypt'];
-var guess = prompt('guess what is the favarte place in form : ').toLowerCase();
-function serch(place, guess) {
-    for (var j = 0; j < place.length - 1; j++) {
-        if (guess === place[j]) {
-            return true;
-        } else {
-            return false;
+var guess ;
+for (var int = 0; int < 6; int++) {
+    guess = prompt('guess what is the favarte place in form : ').toLowerCase();
+    for (var j = 0; j < place.length; j++) {
+        if (place[j] === guess) {
+            j = 10;
+            int= 10;
+            alert(guess + ' it is in my faverate place ');
+            currect++;
 
         }
     }
-}
-var incloud = serch(place, guess);
-if (incloud === true) {
-    alert(guess + ' this is in my faverate place  ');
-}
-else {
-    alert(guess + ' this is not in my faverate place  ');
-
+    guess = prompt('it is not in my faverate place,try agin ! ').toLowerCase();
 }
 
 
- alert(" Thank You " + urname);
- alert('ur currect answer is  ' + currect);
+alert(" Thank You " + urname);
+alert('ur currect answer is  ' + currect);
 
 // console.log(" Your Name Is : "  + name);
 // console.log(" your answer is : "+ food);
