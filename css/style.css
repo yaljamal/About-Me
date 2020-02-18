@@ -3,6 +3,8 @@ body{
     height: 100%;
 }
 header h1{
+    width: 100%;
+    height: 38px;
     margin: 20px;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +14,7 @@ header h1{
 
 }
 #header-nav{
-    margin-top: -46px;
+    margin-top: -53px;
 
 }
 #header-nav ul li {
