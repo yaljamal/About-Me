@@ -83,6 +83,7 @@ if (guessNumber !== 7) {
     // console.log(currect);
 }
 var place = ['palestine', 'turkey', 'germany', 'paris', 'rome', 'egypt'];
+<<<<<<< HEAD
 var guess;
 for (var int = 0; int < 6; int++) {
     guess = prompt('guess what is the favarte place in form : ').toLowerCase();
@@ -98,6 +99,24 @@ for (var int = 0; int < 6; int++) {
     }
     alert( massage);
 }
+=======
+var guess ;
+for (var int = 0; int < 6; int++) {
+    guess = prompt('guess what is the favarte place in form : ').toLowerCase();
+    for (var j = 0; j < place.length; j++) {
+        if (place[j] === guess) {
+            j = 10;
+            int= 10;
+            alert( guess + ' it is in my faverate place ');
+            currect++;
+
+        }
+    }
+    guess = prompt('it is not in my faverate place,try agin ! ').toLowerCase();
+}
+
+
+>>>>>>> d86db6b874e79a6dec910a0fb375180ba3f48bee
 alert(" Thank You " + urname);
 alert('ur currect answer is  ' + currect);
 // console.log(currect);
