@@ -61,62 +61,34 @@ if (drink === 'yes' || drink === 'y') {
 } else {
     alert('your answer is wrong');
 }
-var counter = 4;
-var guessNumber = prompt(' guess a faverate number from 1 to 9 ');
-guessNumber = parseInt(guessNumber);
-if (guessNumber !== 7) {
-    for (var i = 2; i <= counter; i++) {
-        if (guessNumber > 7) {
-            guessNumber = prompt('this number above my favarate number');
-            parseInt(guessNumber);
-        } else if (guessNumber < 7) {
-            guessNumber = prompt('this number less my favarate number ');
-            parseInt(guessNumber);
-        }
-        else if (i === counter) {
-            alert('Nooooo it is not my favarate number  :( My Favarate number is 7 :) ');
-        }
+for (var i = 0; i < 4;i++) {
+    var guessNumber = parseInt(prompt(' guess a faverate number from 1 to 9 '));
+    if (guessNumber === 7) {
+        alert('Thats right(:) ');
+        currect++;
+        break;
+    } else if (guessNumber > 7) {
+        alert('this number above my favarate number');
+    } else if (guessNumber < 7) {
+        alert('this number less my favarate number');
     }
-} else if (guessNumber === 7) {
-    alert('this is my faverate number :)');
-    currect++;
-    // console.log(currect);
 }
-var place = ['palestine', 'turkey', 'germany', 'paris', 'rome', 'egypt'];
-<<<<<<< HEAD
-var guess;
-for (var int = 0; int < 6; int++) {
-    guess = prompt('guess what is the favarte place in form : ').toLowerCase();
-    var massage = ' try agin !';
-    for (var j = 0; j < place.length; j++) {
-        if (place[j] === guess) {
-            j = place.length;
-            int = place.length;
-            alert = guess + ' it is in my faverate place ';
-            currect++;
-            break;
-        }
+var places = ['palestine', 'turkey', 'germany', 'paris', 'rome', 'egypt'];
+  var guess =prompt('guess what is the favarte place in form : ').toLowerCase();
+  var rightGuess = false;
+  for (var guessAttempts = 0; guessAttempts < 5; guessAttempts++) {
+    for (var i = 0; i < places.length; i++) {
+      if (guess === places[i]) {
+        rightGuess = true;
+      }
     }
-    alert( massage);
-}
-=======
-var guess ;
-for (var int = 0; int < 6; int++) {
-    guess = prompt('guess what is the favarte place in form : ').toLowerCase();
-    for (var j = 0; j < place.length; j++) {
-        if (place[j] === guess) {
-            j = 10;
-            int= 10;
-            alert( guess + ' it is in my faverate place ');
-            currect++;
-
-        }
+    if (rightGuess === true) {
+       currect++;
+     alert('That\'s right! ' + guess + ' is one of my favorite place !');
+      break;
     }
-    guess = prompt('it is not in my faverate place,try agin ! ').toLowerCase();
-}
-
-
->>>>>>> d86db6b874e79a6dec910a0fb375180ba3f48bee
+    guess = prompt('Wrong guess, try another place !');
+  }
 alert(" Thank You " + urname);
 alert('ur currect answer is  ' + currect);
 // console.log(currect);
