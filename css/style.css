@@ -12,8 +12,18 @@ header h1{
     color: white;
     background-color: #ffcc00;
 }
+
+header{
+    position: fixed;
+    width: 94%;
+    top: 0px;
+    height: 38px;
+    margin: 20px;
+
+}
 #header-nav{
     margin-top: -65px;
+
 }
 #header-nav ul li {
     float: right;
@@ -24,6 +34,9 @@ header h1{
     padding: 10px;
     padding-right: 23px;
     color: white;
+}
+main{
+    padding-top: 70px;
 }
 #img-main{
     margin: 79px;
@@ -68,7 +81,7 @@ h2 {
     height: 400px;
     }
 .grid-item{
-    width: 19%;
+    width: 29%;
     padding: 0px 20px;
     float: left;
     margin-right: 11px;
@@ -81,7 +94,23 @@ li {
         padding: 4px;
         margin: 4px;
     }
+.icon-top{
+    position: sticky;
+    bottom: 20px;
+    width: 40px;
+}
 
+#icon-top{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
+#img-main2{
+    width: 30px;
+    padding-bottom: 40px;
+
+
+}
 footer{
     text-align: center;
     background-color:#ffcc00;
