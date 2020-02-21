@@ -1,6 +1,7 @@
 body{
     width: 96%;
     height: 100%;
+  
 }
 header h1{
     width: 94%;
@@ -12,7 +13,6 @@ header h1{
     color: white;
     background-color: #ffcc00;
 }
-
 header{
     position: fixed;
     width: 94%;
@@ -39,12 +39,19 @@ main{
     padding-top: 70px;
 }
 #img-main{
-    margin: 79px;
+    margin-left: 105px;
+    margin-top: 44px;
+    margin-bottom: 37px; 
     width: 157px;
+    float: left;
 }
 #par-main{
     float: right;
     margin: 50px;
+}
+#claer
+{
+    clear: both;
 }
 main{
     display: inline-block;
@@ -55,6 +62,8 @@ main{
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    margin-left: 5%;
+
 }
 #info{
     margin: 50px;
